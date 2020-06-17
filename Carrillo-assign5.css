@@ -59,11 +59,21 @@ header {
     border: 2px solid rgb(255, 255, 255);
 }
 
+.data-section1 {
+    text-align: center;
+}
 
+.data-section2 {
+    text-align: left;
+}
+
+.seperation {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
 
 .data-section1, .data-section2 {
     position: relative;
-    text-align: center;
     width: 80%;
     left: 50%;
     transform: translate(-50%, 0);
@@ -116,13 +126,55 @@ footer p {
     letter-spacing: .1vw;
 }
 
+a {
+    color: white;
+    font-size: .8vw;
+}
+
+a:hover {
+    color: black
+}
+
 .main-footer {
     position: absolute;
     bottom: 0;
 }
 
+#pens-pic {
+    width: 30vw;
+}
 
+#pen p {
+    text-align: right;
+}
 
+#full-pic {
+    width: 20vw;
+}
+
+#video {
+    text-align: center;
+    width: 100%;
+}
+
+iframe {
+    width: 50vw;
+    height: 25vw;
+}
+
+.left-element {
+    float: left;
+    margin-right: 1vw;
+}
+
+.right-element {
+    float: right;
+    margin-left: 1vw;
+}
+
+.data-section2 div {
+    display: inline-block;
+}
 
 
 
